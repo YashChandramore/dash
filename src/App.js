@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+import DashboardSection from './dashboard';
+import Compt from './date';
+import Compt1 from './date1';
+import Comp2 from './date2';
+import Comp from './comp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    
+      <Header />
+      <DashboardSection />
+      <Comp/>
+
+    
+  </div>
   );
 }
 
