@@ -69,9 +69,7 @@ const RightSideBar = () => {
 const Comp = () => {
   return (
     <div className="w-full flex flex-col md:flex-row bg-gray-200 dark:bg-gray-500">
-      <div className="w-full md:w-2/3"> {/* Adjusted width for responsiveness */}
-        <RightSideBar /> {/* Moved to the left for responsiveness */}
-      </div>
+      
       <div className="w-full md:w-1/3"> {/* Adjusted width for responsiveness */}
         <Compt />
         <Compt />
@@ -83,6 +81,9 @@ const Comp = () => {
         <Compt1 />
         <Compt1 />
         <Comp2 />
+      </div>
+      <div className="w-full md:w-2/3"> {/* Adjusted width for responsiveness */}
+        <RightSideBar /> {/* Moved to the left for responsiveness */}
       </div>
     </div>
   );
